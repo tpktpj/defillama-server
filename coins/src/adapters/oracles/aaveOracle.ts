@@ -10,7 +10,6 @@ const contracts: { [chain: string]: { target: string; queries: string[] } } = {
   btr: {
     target: "0x191a6ac7cbC29De2359de10505E05935a1Ed5478", // AaveOracle-Bitlayer
     queries: [
-        "0xb88a54ebbda8edbc1c2816ace1dc2b7c6715972d",
         "0xb750f79cf4768597f4d05d8009fcc7cee2704824"
     ],
   },
